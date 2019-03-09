@@ -40,6 +40,7 @@ a {
 	color:#d9d9dc;
 	text-decoration:underline;
 }
+
 .header, .content, .menu_nav, .fbg, .footer, form, ol, ol li, ul, .content .mainbar, .content .sidebar {
 	margin:0;
 	padding:0;
@@ -177,6 +178,15 @@ h1 small {
 .content .mainbar img.fl {
 	margin:0;
 	border:none;
+}
+.content .mainbar iframe {
+	frameborder:0;
+	scrolling:no;
+	margin:0
+	padding:0;
+	width:640px;
+	height:400px;
+	border:0;
 }
 .content .mainbar .article {
 	margin:0 0 8px;
