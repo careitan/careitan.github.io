@@ -10,6 +10,8 @@
 <script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
 <script type="text/javascript" src="js/script.js"></script>
 <script type="text/javascript" src="js/coin-slider.min.js"></script>
+<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>-->
+<script type="text/javascript" src="js/article.js"></script>
 </head>
 <body>
 <div class="main">
@@ -36,21 +38,8 @@
   <div class="content">
     <div class="content_resize">
       <div class="mainbar">
-        <div class="article">
-          <h2><span>Excellent Solution For Your Business</span></h2>
-          <p class="infopost">Posted on <span class="date">20 Dec 2018</span> by <a href="#">Admin</a></p>
-          <div class="clr"></div>
-          <div class="img"><img src="images/img1.jpg" width="180" height="229" alt="" class="fl" /></div>
-          <div class="post_content">
-            <p>Freelance software engineer with interests in the following industries:</p>
-            <ul>
-              <li>Aviation & Aerospace</li>
-              <li>Health Care</li>
-              <li>Non-Profit Management</li>
-            </ul>
-            <p>I invite you to check out my projects on <a href="https://github.com/careitan?tab=repositories" target="_blank">GitHub</a>.
-          </div>
-          <div class="clr"></div>
+        <div class="article" id="article_view">
+        	<object class="post_content" id="articlePanel" type='text/html' data=""></object>
         </div>
       </div>
       <div class="sidebar">
@@ -59,10 +48,10 @@
           <h2 class="star"><span>Site</span> Menu</h2>
           <div class="clr"></div>
           <ul class="sb_menu">
-            <li><a href="#">Home</a></li>
+            <li><a href='' onclick="LoadArticle('articles/home.html')">Home</a></li>
             <li><a href="#">Technical Summary</a></li>
             <li><a href="#">Business Summary</a></li>
-            <li><a href="#">Projects</a></li>
+            <li><a href='' onclick="LoadArticle('articles/projects.html')">Projects</a></li>
           </ul>
         </div>
         <div class="gadget">
@@ -83,10 +72,7 @@
     <div class="fbg_resize">
       <div class="col c1">
         <h2><span>Image</span> Gallery</h2>
-        <!--
-        <a href="#"><img src="images/gal1.jpg" width="75" height="75" alt="" class="gal" /></a> <a href="#"><img src="images/gal2.jpg" width="75" height="75" alt="" class="gal" /></a> <a href="#"><img src="images/gal3.jpg" width="75" height="75" alt="" class="gal" /></a> <a href="#"><img src="images/gal4.jpg" width="75" height="75" alt="" class="gal" /></a> <a href="#"><img src="images/gal5.jpg" width="75" height="75" alt="" class="gal" /></a> <a href="#"><img src="images/gal6.jpg" width="75" height="75" alt="" class="gal" /></a> 
-        -->
-        Coming Soon.
+          Coming Soon.
         </div>
       <div class="col c2">
         <h2><span>Services</span> Overview</h2>

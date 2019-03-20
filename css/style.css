@@ -179,7 +179,7 @@ h1 small {
 	margin:0;
 	border:none;
 }
-.content .mainbar iframe {
+.content .mainbar object {
 	frameborder:0;
 	scrolling:no;
 	margin:0
@@ -194,7 +194,7 @@ h1 small {
 }
 .content .mainbar .post_content {
 	float:right;
-	width:420px;
+	width:480px;
 }
 .content .mainbar .post_content strong {
 	color:#7e7c7c;
